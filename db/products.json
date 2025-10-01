@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "XPro Wireless Headphones",
+    "price": 129.99,
+    "image": "https://picsum.photos/id/1011/600/400"
+  },
+  {
+    "id": 2,
+    "name": "Aurora Smartwatch",
+    "price": 249.00,
+    "image": "https://picsum.photos/id/1005/600/400"
+  },
+  {
+    "id": 3,
+    "name": "BeatBox Portable Speaker",
+    "price": 79.50,
+    "image": "https://picsum.photos/id/1025/600/400"
+  },
+  {
+    "id": 4,
+    "name": "ReadMate e-Reader",
+    "price": 159.00,
+    "image": "https://picsum.photos/id/1043/600/400"
+  },
+  {
+    "id": 5,
+    "name": "65W USB-C Charger",
+    "price": 39.99,
+    "image": "https://picsum.photos/id/1060/600/400"
+  },
+  {
+    "id": 6,
+    "name": "LightBook 14 Laptop",
+    "price": 2199.00,
+    "image": "https://picsum.photos/id/1084/600/400"
+  },
+  {
+    "id": 7,
+    "name": "ActionCam 4K",
+    "price": 499.49,
+    "image": "https://picsum.photos/id/1069/600/400"
+  },
+  {
+    "id": 8,
+    "name": "Hydra Gaming Mouse",
+    "price": 69.00,
+    "image": "https://picsum.photos/id/1074/600/400"
+  },
+  {
+    "id": 9,
+    "name": "ClearView 1080p Webcam",
+    "price": 59.90,
+    "image": "https://picsum.photos/id/1052/600/400"
+  },
+  {
+    "id": 10,
+    "name": "UrbanPack 20L Backpack",
+    "price": 89.00,
+    "image": "https://picsum.photos/id/1041/600/400"
+  }
+]

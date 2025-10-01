@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-shop</title>
+    <link rel="icon" type="image/png" href="icons/shopping-cart.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="icons/shopping-cart.png" alt="" class="logo-icon">
+            E-shop
+        </h1>
+        <div>
+            <button id="openCartBtn" class="btn">
+                Show cart (<span id="cartCount">0</span>)
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="controls">
+            <input id="searchInput" type="text" placeholder="Search products..." >
+            <button id="clearSearch">Clear</button>
+            <button id="refreshList">Refresh</button>
+        </div>
+
+        <section id="products" class="grid">
+            <!-- Продукти -->
+        </section>
+
+        
+        <div id="cartModal" class="modal" hidden>
+            <div class="modal-backdrop" data-dismiss="true"></div>
+
+            <aside class="modal-panel">
+                <button class="modal-close btn" id="closeCartBtn">×</button>
+                <h3>Your Cart</h3>
+                <div id="cartItems" class="cart-items">
+                    <!-- Продукти в корзині -->
+                </div>
+                <div class="total">
+                    Total: <span id="totalPrice">0.00</span>
+                </div>
+                <div class="modal-actions">
+                    <button id="clearCart" class="btn secondary">Clear</button>
+                    <button id="checkout" class="btn">Checkout</button>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
